@@ -1,0 +1,131 @@
+body{
+    background:  linear-gradient(rgb(0, 136, 255), yellow);
+}
+.body{
+    height: 950px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+input{
+    height: 100px;
+    width: 400px;
+    border-radius: 20px;
+    font-size: 40px;
+    text-align: center;
+    border: none;
+    background: rgba(255, 255, 255, 0.282);
+    outline-color: rgba(0, 136, 255, 0);
+
+
+}
+
+h1{
+    font-size: 60px;
+    border-bottom: 5px solid black;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+  .clean{
+    width: 850px;
+    margin-left: 0px;
+
+  }
+button {
+    width: 150px;
+    height: 150px;
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  margin: 35px;
+  margin-bottom: 20px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 30px;
+}
+
+button:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+button:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+button.plus:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgb(255, 255, 255) 0 7px 13px -3px, #5eff00bd 0 -9px 0 inset;
+    transform: translateY(-5px);
+  }
+
+button.substr:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgb(255, 255, 255) 0 7px 13px -3px, #ff0000 0 -9px 0 inset;
+    transform: translateY(-5px);
+  }
+button.multy:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgb(255, 255, 255) 0 7px 13px -3px, #2b00ff 0 -9px 0 inset;
+    transform: translateY(-5px);
+  }
+button.divide:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgb(255, 255, 255) 0 7px 13px -3px, #ffe100fc 0 -9px 0 inset;
+    transform: translateY(-5px);
+  }
+
+button:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgb(255, 255, 255) 0 7px 13px -3px, #020401 0 -9px 0 inset;
+    transform: translateY(-5px);
+  }
+  @media (max-width: 768px )  {
+    .body{
+      height: 800px;
+    }
+    .input{
+      display: flex;
+      flex-direction: column;
+    }
+    input{
+      width: 300px;
+      margin-bottom: 20px;
+      height: 40px;
+      font-size: 30px;
+      text-align: center;
+    }
+    button{
+      width: 70px;
+      height: 70px;
+      margin: 1px;
+    }
+    .clean{
+      margin-top: 10px;
+      width: 300px;
+    }
+    h1{
+      font-size: 50px;
+    }
+  }
